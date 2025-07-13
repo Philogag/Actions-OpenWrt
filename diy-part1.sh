@@ -19,3 +19,7 @@
 
 #echo "src-link custom $PWD/../custom" >> feeds.conf.default
 cp -r $GITHUB_WORKSPACE/custom/* ./package/
+sed -i 's/.*luci.*/src-git luci https://git.openwrt.org/project/luci.git/g' feeds.conf.default
+
+cat feeds.conf.default
+
