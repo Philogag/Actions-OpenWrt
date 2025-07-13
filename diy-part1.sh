@@ -18,4 +18,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 #echo "src-link custom $PWD/../custom" >> feeds.conf.default
-cp -r ../custom/* ./package/
+cp -r $GITHUB_WORKSPACE/custom/* ./package/
