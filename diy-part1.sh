@@ -17,9 +17,7 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-#echo "src-link custom $PWD/../custom" >> feeds.conf.default
-cp -r $GITHUB_WORKSPACE/custom/* ./package/
-sed -i 's@^src.*luci.*@src-git luci https://github.com/coolsnowwolf/luci@g' feeds.conf.default
+echo "src-link custom ${GITHUB_WORKSPACE}/custom_feed" >> feeds.conf.default
 
 cat feeds.conf.default
 
