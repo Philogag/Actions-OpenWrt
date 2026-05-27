@@ -1,0 +1,9 @@
+[submodule "custom_feed/luci-theme-argon"]
+	path = custom_feed/luci-theme-argon
+	url = https://github.com/jerrykuku/luci-theme-argon
+[submodule "custom_feed/luci-app-openclash"]
+	path = custom_feed/luci-app-openclash
+	url = https://github.com/vernesong/OpenClash.git
+[submodule "custom_feed/luci-app-easytier"]
+	path = custom_feed/luci-app-easytier
+	url = https://github.com/EasyTier/luci-app-easytier
