@@ -7,3 +7,6 @@
 [submodule "custom_feed/luci-app-easytier"]
 	path = custom_feed/luci-app-easytier
 	url = https://github.com/EasyTier/luci-app-easytier
+[submodule "custom_feed/nps-openwrt-djylib"]
+	path = custom_feed/nps-openwrt-djylib
+	url = https://github.com/djylb/nps-openwrt
