@@ -17,6 +17,29 @@ A template for building OpenWrt with GitHub Actions
 - Click the `Run workflow` button.
 - When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
 
+## Changelog
+
++ 2026-04-06
+    + Switch to [ImmortalWrt v25.12.0](https://github.com/immortalwrt/immortalwrt/releases/tag/v25.12.0)
+    + Add feature "npc" from [djylb fork](https://github.com/djylb/nps-openwrt)
+    + Enable feature "autoreboot"
++ 2026-03-27
+    + Switch to [ImmortalWrt v25.12.0-rc2](https://github.com/immortalwrt/immortalwrt/releases/tag/v25.12.0-rc2)
+    + Change custom_feed into git submodule
+    + Enable build target:
+        + NanoPi R5S
+        + Nan0Pi R2S
+    + Enabled feature:
+        + adguradhome
+        + argon-theme
+        + cpu-freq
+        + eazytier
+        + frpc
+        + openclash
+        + qos
+        + wol
+
+
 ## Tips
 
 - It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
